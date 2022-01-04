@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ert.gr" version="4.0.6" name="ERTflix" provider-name="Twilight0">
+k﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="ertkomin" version="1.0.0" name="ertkomin" provider-name="spkomin">
     <requires>
         <import addon="xbmc.addon" version="16.1.000"/>
         <import addon="script.module.tulip" version="2.9.10" />
@@ -31,7 +31,7 @@
         <disclaimer lang="en_GB">This addon offers content available in Greece and is not published nor endorsed by ert.gr</disclaimer>
         <disclaimer lang="el_GR">Το πρόσθετο αυτό προσφέρει περιεχόμενο διαθέσιμο στην Ελλάδα και δεν έχει δημοσιευθεί ούτε εγκριθεί από το ert.gr</disclaimer>
         <license>GPL-3.0-only</license>
-        <source>https://github.com/Twilight0/plugin.video.ert.gr</source>
+        <source>https://github.com/spkomin/ertkomin</source>
         <size>1153434</size>
         <website>https://www.ertflix.gr/</website>
         <news>[B]4.0.X[/B]
