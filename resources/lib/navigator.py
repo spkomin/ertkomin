@@ -606,7 +606,7 @@ def category_list(url):
         list_of_lists = [i for i in list(pages['sectionsByCodename'].values()) if 'adman' not in i['sectionContentCodename']]
         codename = list(pages.keys())[-1]
         page = 1
-        total_pages = pages[codename]['totalPages']
+        total_pages = pages[codename]['totalPages'] if 'totalPages' in pages[codename] else 1
 
     next_url = GET_PAGE_CONTENT.format(page + 1, codename)
 
